@@ -1,0 +1,106 @@
+* {
+     padding: 0;
+     margin: 0;
+     font-family: sans-serif;
+}
+
+.container {
+     background-color: #222;
+     min-height: 100vh;
+     width: 100%;
+     position: relative;
+}
+
+header {
+     width: 80%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px 0;
+}
+
+.logo {
+     width: 40px;
+}
+
+ul li {
+     display: inline-block;
+     margin-left: 20px;
+}
+
+ul li a {
+     text-decoration: none;
+     color: white;
+     font-weight: 400;
+     font-size: 20px;
+     margin: 0 10px;
+}
+
+.landig {
+     width: 80%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     overflow: hidden;
+}
+
+.landig .disc {
+     width: 40%;
+}
+
+.landig .disc h2 {
+     color: white;
+     font-size: 50px;
+     margin-bottom: 10px;
+     text-transform: uppercase;
+}
+
+.landig .disc p {
+     font-size: 18px;
+     color: #c3c2c2;
+     line-height: 1.4;
+     margin: 20px 0;
+     max-width: 400px;
+}
+
+.landig .disc a {
+     text-decoration: none;
+     background-color: white;
+     padding: 7px 15px;
+     margin-top: 20px;
+     border-radius: 20px;
+     font-weight: 700;
+     color: black;
+}
+
+.landig .image {
+     width: 30%;
+}
+
+.landig .image img {
+     width: 180px;
+}
+
+.icons {
+     position: absolute;
+     bottom: 20px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+
+.icons img {
+     width: 50px;
+     transition: 0.5s;
+     cursor: pointer;
+}
+.icons img:hover {
+     transform: scale(1.2);
+}
+/* header ul {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     gap: 20px;
+} */
