@@ -8,3 +8,5 @@ The selected image and color are saved in localStorage so they persist after rel
 - Change main image by clicking on thumbnails.
 - Change page background color dynamically.
 - Save chosen image and color in localStorage.
+
+## Live Demo : https://mennahamadaelsba3i.github.io/Dynamic-Landing-Page/
